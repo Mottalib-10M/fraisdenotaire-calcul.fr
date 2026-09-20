@@ -21,7 +21,7 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="robots" content="index, follow" />
-    <meta name="author" content="Mottalib Radif" />
+    <meta name="author" content="Radif Partners" />
     <title>{title}</title>
 
     <!-- Open Graph -->
@@ -68,15 +68,15 @@ const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
       "url": "https://fraisdenotaire-calcul.fr",
       "logo": "https://fraisdenotaire-calcul.fr/favicon.svg",
       "founder": {
-        "@type": "Person",
-        "name": "Mottalib Radif"
+        "@type": "Organization",
+        "name": "Radif Partners"
       }
     })} />
 
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Mottalib Radif",
+      "@type": "Organization",
+      "name": "Radif Partners",
       "jobTitle": "Financial Technology Expert",
       "url": "https://fraisdenotaire-calcul.fr"
     })} />
